@@ -28,7 +28,7 @@ jobs:
             libx11-dev \
             libpipewire-0.3-dev \
             libwayland-dev \
-            [libdrm](guide://action?prefill=Tell%20me%20more%20about%3A%20libdrm)-dev \
+            libdrm-dev \
             libglvnd-dev
 
       - name: Build project
